@@ -113,9 +113,9 @@ const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
 const OWNER_ID = process.env.OWNER_ID;
 const TELEGRAM_WEBHOOK_SECRET = process.env.TELEGRAM_WEBHOOK_SECRET || '';
-const SERVER_URL = (process.env.SERVER_URL || 'https://mozlince.onrender.com').replace(/\/+$/,'');
+const SERVER_URL = (process.env.SERVER_URL || 'https://airo.ai/share/Nmg0d2ptOW43aTpjNDA6c1RCT21PWVpuWlda').replace(/\/+$/,'');
 const RULES_VERSION = 34;
-const EXT_API_BASE_DEFAULT = 'https://asheo-license.asheo-server-ext.workers.dev';
+const EXT_API_BASE_DEFAULT = 'https://airo.ai/share/Nmg0d2ptOW43aTpjNDA6c1RCT21PWVpuWlda';
 
 /* ═══ CONSTANTES DE PLANO ═══ */
 const FEATURE_KEYS = ['browserMods','ruleOpsLab','liveHud','advancedProtection','apiAccess','experimentalFeatures'];
